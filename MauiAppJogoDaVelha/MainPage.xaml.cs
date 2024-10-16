@@ -22,13 +22,13 @@ namespace MauiAppJogoDaVelha
             if (vez == "X")
             {
                 btn.Text = "X";
-                btn.TextColor = Colors.Red;
+                btn.TextColor = Color.FromArgb("#f8bdd5");//cor de cada letra
                 vez = "O";
             }
             else
             {
                 btn.Text = "O";
-                btn.TextColor = Colors.Blue;
+                btn.TextColor = Color.FromArgb("#9ce2ef");
                 vez = "X";
             }
 
